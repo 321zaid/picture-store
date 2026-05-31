@@ -1,0 +1,8 @@
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.8.155:3000
+- Environments: .env.local
+✓ Ready in 490ms
+
+ GET /gallery 200 in 379ms (next.js: 150ms, application-code: 229ms)
+ POST /api/create-checkout-session 503 in 85ms (next.js: 72ms, application-code: 13ms)
