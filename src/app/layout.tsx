@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { CartProviderWrapper } from "@/context/CartProviderWrapper";
 import PageTransition from "@/components/PageTransition";
+import BackgroundAudio from "@/components/BackgroundAudio";
 
 export const metadata: Metadata = {
   title: "Sexpixel - Premium Digital Photography Marketplace",
@@ -25,6 +26,7 @@ export default function RootLayout({
             <PageTransition>{children}</PageTransition>
           </main>
           <Footer />
+          <BackgroundAudio />
         </CartProviderWrapper>
       </body>
     </html>
