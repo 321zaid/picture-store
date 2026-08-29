@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { getStripe } from "@/lib/stripe";
 
+export const runtime = "edge";
+
 export async function POST(request: Request) {
   try {
     const { items } = await request.json();

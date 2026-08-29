@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { getAllProducts, deleteProduct, getProductById } from "@/lib/products";
 
+export const runtime = "edge";
+
 export async function GET() {
   const products = getAllProducts();
   return NextResponse.json(products);
